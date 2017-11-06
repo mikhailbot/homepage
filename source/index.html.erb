@@ -1,0 +1,13 @@
+---
+---
+
+<h1 class="mb4">Mikhail Delport</h1>
+
+<% blog.articles.each do |article| %>
+  <article class="mb4">
+    <a href="<%= article.url %>" class="link">
+      <span class="near-black f3 b"><%= article.title %></span>
+    </a>
+    <time class="red f6 b ttu tracked-tight db"><%= article.date.strftime('%b %Y') %></time>
+  </article>
+<% end %>

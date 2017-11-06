@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+  <article>
+    <h1 class="mb0"><%= current_page.title %></h1>
+    <time class="red f6 b ttu tracked-tight db mb3"><%= current_page.date.strftime('%b %Y') %></time>
+    <%= yield %>
+  </article>
+
+  <a class="f3 blue normal link" href="/">
+    &larr;
+  </a>
+<% end %>

@@ -1,0 +1,18 @@
+---
+title: Trello
+date: 2015-04-15
+---
+
+In the world of productivity apps one could very easily spend more time switching between options than actually using one and getting stuff done. I’ve fallen prey to this more often that I would probably care to admit. I have tried all the major to-do applications, tasks list, Getting Things Done tools and everything in between. Yet every time I hit a block in the road and switch to something else, or even worse struggle along and get frustrated at myself and the tool. That all came to an end about a week ago, when I opened up Trello and gave it a try.
+
+Now the first question is, why has it taken me so long to even try Trello when I have tried so many other products? Simply put I over-looked it and thought of it as a simple list keeping web app without native applications which I much preferred. In addition, for whatever reason I had the impression it was really meant for groups of people and didn’t work great for individuals! Gladly I was wrong on all fronts.
+
+While it’s not perfect, no other GTD tool has felt so naturally to me as Trello’s boards and cards. Once figuring out the basics things just seemed to fall into place and I had three main boards up and running just as I liked! Add in the easy ability to give access to others to a specific board and I jumped fully on board. Now, as I mentioned I have a few nitpicks but in their defense it’s nothing major and I can easily live with things as they are:
+
+There’s no easy way to mark something as “done” that has a due date, the date just sits there and stares at you
+There’s no easy way to show your labels on the side without taking up an entire list for them
+Regarding the marking things as done, I could remove the due date, but I like it there for reference later down the road. The biggest annoyance is not easily being able to see the labels. I’ve colour coded them but I still haven’t memorized all the colours yet so it would be great to easily see what I’ve assigned each colour without using up a column. Not the end of the world, just a small annoyance.
+
+My current setup is nothing fancy. I’ve three main boards: a personal board, a work board, and a big project coming up board. Within each board I’ve an inbox column, and then various columns for different responsibilities and areas. I also keep a done column to keep track of what’s completed and a labels column that I hope to remove eventually. Small projects get a card with individual tasks in a checklist, or if they’re medium sized they may get a whole column to themselves. For the really big stuff, or projects where I need more space to plan thigns out I’ll spin up a new board which Trello lets you do with ease including switching between boards.
+
+While I am still in the honey moon phase of using Trello I’m hopefully it’ll last longer than the rest! I’ve already spent more time using Trello and getting stuff done than all my previous tool so there’s hope. At least until the next one comes around.
