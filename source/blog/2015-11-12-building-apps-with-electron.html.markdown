@@ -9,9 +9,9 @@ For testing I thought I’d work on something super simple; a pomodoro timer! Re
 
 <img class="w-100 mv3" src="/images/tiny_pomodoro.png" alt="Tiny Pomodoro screenshot">
 
-You can see the completed app above. I originally had a prgoress bar (straight line and a circular one) but settled on making use of [FlipClock.js](http://flipclockjs.com/) because why not? Plus it saved some time doing something fro scratch!
+You can see the completed app above. I originally had a progress bar (straight line and a circular one) but settled on making use of [FlipClock.js](http://flipclockjs.com/) because why not? Plus it saved some time doing something from scratch!
 
-While creating the app and testing it things went smooth. The documentation isn’t bad, just lacking examples in certain areas. Plus you have to get used to the two process, main and rendered as communicating between them requires some forethought.
+While creating the app and testing it things went smooth. The documentation isn’t bad, just lacking examples in certain areas. Plus you have to get used to the two process, main and rendered, as communicating between them requires some forethought.
 
 Besides a few nuances such as loading JS libraries, things are pretty standard affair.
 
