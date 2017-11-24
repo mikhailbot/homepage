@@ -1,0 +1,21 @@
+{
+  "name": "nuxtent-example",
+  "version": "1.0.0",
+  "description": "nuxtent single content types example",
+  "author": "Alid Castano <alidcastano@gmail.com>",
+  "dependencies": {
+    "@nuxtjs/axios": "^4.3.0",
+    "nuxt": "latest",
+    "nuxtent": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "postcss": "^6.0.14",
+    "tailwindcss": "^0.2.2"
+  }
+}
