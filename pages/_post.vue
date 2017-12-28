@@ -11,6 +11,15 @@ export default {
     return {
       post: await app.$content('/').get(route.path)
     }
+  },
+
+  head () {
+    return {
+      title: this.post.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.post.description }
+      ]
+    }
   }
 }
 </script>

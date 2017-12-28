@@ -21,8 +21,10 @@ export default {
     }
   },
 
-  head: {
-    title: 'Blog Posts'
+  head () {
+    return {
+      title: 'Blog'
+    }
   },
 
   computed: {

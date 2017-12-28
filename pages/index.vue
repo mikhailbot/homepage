@@ -6,8 +6,10 @@
 
 <script>
 export default {
-  head: {
-    title: 'Hi!'
+  head () {
+    return {
+      title: 'Hi!'
+    }
   }
 }
 </script>
