@@ -1,6 +1,13 @@
 <template>
-<div>
-  <h1 class="text-5xl"> Index Page </h1>
-  <nuxt-link to="/archives">Archives</nuxt-link>
-</div>
+  <div>
+    <h1 class="text-5xl">Hi there!</h1>
+  </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: 'Hi!'
+  }
+}
+</script>
