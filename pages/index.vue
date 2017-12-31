@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-8">
+  <div class="md:pt-8">
     <h1 class="text-5xl text-black font-black pt-8">Hi there, I'm Mikhail.</h1>
     <p class="text-xl mt-4 mb-2">
       I'm a developer, designer, and tinkerer currently working in higher education.
@@ -15,7 +15,7 @@
 
     <div class="mx-auto pt-8">
       <section v-for="post in posts" v-bind:key="post.title" class="pb-8">
-        <p class="text-xs font-mono">{{ post.date }}</p>
+        <div class="text-xs font-mono">{{ post.date }}</div>
         <nuxt-link :to="post.permalink" class="text-4xl text-black font-black no-underline hover:text-orange-dark uppercase">{{ post.title }}</nuxt-link>
       </section>
     </div>

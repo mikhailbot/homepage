@@ -1,6 +1,6 @@
 <template>
-  <div class="font-sans pt-8">
-    <div class="max-w-xl mx-auto pt-8">
+  <div class="font-sans md:pt-8 mx-4">
+    <div class="max-w-md mx-auto md:pt-8">
       <nuxt/>
     </div>
   </div>
