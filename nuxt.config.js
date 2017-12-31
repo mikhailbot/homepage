@@ -1,5 +1,5 @@
 module.exports = {
-  modules: ['nuxtent'],
+  modules: ['nuxtent', '@nuxtjs/google-analytics'],
 
   head: {
     titleTemplate: '%s - Mikhail Delport',
@@ -27,6 +27,10 @@ module.exports = {
         'getAll'
       ]
     }
+  },
+
+  'google-analytics': {
+    id: 'UA-92051316-5'
   },
 
   css: ['~/assets/css//main.css']
