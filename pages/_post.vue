@@ -11,8 +11,8 @@
       </svg>
     </nuxt-link>
 
-    <div class="text-xs font-mono">{{ post.date }}</div>
-    <h1 class="text-5xl text-black font-black mb-4">{{ post.title }}</h1>
+    <div class="text-xs font-mono mt-2">{{ post.date }}</div>
+    <h1 class="text-5xl text-black font-black mb-6">{{ post.title }}</h1>
     <div v-html="post.body" class="pb-8" />
   </div>
 </template>

@@ -4,3 +4,15 @@
 p {
   @apply .pb-6 .text-xl .leading-normal;
 }
+
+p > a {
+  @apply .text-black .font-bold;
+}
+
+p > a:hover {
+  @apply .text-indigo-dark;
+}
+
+pre {
+  @apply .bg-grey-lighter .mt-2 .mb-8 .p-6 .border .rounded
+}
