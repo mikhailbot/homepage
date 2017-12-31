@@ -1,10 +1,10 @@
 <template>
   <div class="md:pt-8">
     <h1 class="text-5xl text-black font-black pt-8">Hi there, I'm Mikhail.</h1>
-    <p class="text-xl mt-4 mb-2">
-      I'm a developer, designer, and tinkerer currently working in higher education.
+    <p class="text-xl mt-4 pb-2">
+      I'm a developer, designer, and sysadmin currently working in higher education.
     </p>
-    <p class="text-xl mb-2">
+    <p class="text-xl pb-2">
       You can usually find me building things in Elixir and Vue, when not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/">puppy</a>.
     </p>
     <p class="text-xl pb-8">
