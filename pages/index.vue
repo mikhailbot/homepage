@@ -5,7 +5,7 @@
       I'm a developer, designer, and tinkerer currently working in higher education.
     </p>
     <p class="text-xl mb-2">
-      You can usually find me building things in Elixir and Vue, when not enjoying the outdoors with my wife and <a href="https://www.instagram.com/winter_shepherd/" class="text-black hover:text-orange-dark font-bold">dog</a>.
+      You can usually find me building things in Elixir and Vue, when not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/" class="text-black hover:text-orange-dark font-bold">puppy</a>.
     </p>
     <p class="text-xl pb-8">
       Come chat with me on <a href="https://twitter.com/_mikhailbot" class="text-black hover:text-orange-dark font-bold">Twitter</a> or lets work on something together on <a href="https://github.com/mikhailbot" class="text-black hover:text-orange-dark font-bold">GitHub</a>!
