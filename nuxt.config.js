@@ -13,7 +13,7 @@ module.exports = {
   nuxtent: {
     content: {
       page: '/_post',
-      permalink: 'blog/:year/:slug',
+      permalink: ':year/:slug',
       generate: [
         // assets to generate static build
         'get',
