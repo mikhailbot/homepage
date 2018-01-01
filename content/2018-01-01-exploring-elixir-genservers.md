@@ -1,6 +1,7 @@
 ---
 title: Exploring Elixir GenServers
 date: 2018-01-01
+description: Of the many powerful features in Elixir, OTP and GenServers have proven the most interesting.
 ---
 Of the many powerful features in Elixir, OTP and GenServers have proven the most interesting.
 

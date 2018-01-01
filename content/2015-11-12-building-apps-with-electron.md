@@ -1,6 +1,7 @@
 ---
 title: Building Apps with Electron
 date: 2015-11-12
+description: Taking a break from working with Meteor, I decided to give Electron a try. Electron is a framework for building desktop applications using HTML, CSS, and Javascript. It powers both the Atom text editor, and the popular chat service Slack.
 ---
 
 Taking a break from working with Meteor, I decided to give [Electron](https://electron.atom.io/) a try. Electron is a framework for building desktop applications using HTML, CSS, and Javascript. It powers both the [Atom](https://atom.io/) text editor, and the popular chat service [Slack](https://slack.com/).
