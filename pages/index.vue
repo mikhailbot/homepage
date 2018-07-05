@@ -5,7 +5,7 @@
       I'm a developer, designer, and sysadmin currently working in higher education.
     </p>
     <p class="text-xl pb-2">
-      You can usually find me building things in Elixir and Vue, when not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/">puppy</a>.
+      When I'm not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/">puppy</a> you can usually find me building things in Elixir and Vue or producing and editing podcasts for <a href="https://spec.fm/">SpecFM</a>.
     </p>
     <p class="text-xl pb-8">
       Come chat with me on <a href="https://twitter.com/_mikhailbot">Twitter</a> or lets work on something together on <a href="https://github.com/mikhailbot">GitHub</a>!
@@ -67,7 +67,7 @@ export default {
           name: 'MeetSilver',
           url: 'http://meetsilver.com/',
           description: 'Scheduling meetings, done simply!',
-          status: 'alpha'
+          status: 'on-hold'
         }
       ]
     }
