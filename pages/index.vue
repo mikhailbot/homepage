@@ -13,7 +13,7 @@
 
     <div class="border-t-4 border-grey-lighter my-8"></div>
 
-    <h2 class="text-4xl text-black font-black uppercase">Projects</h2>
+    <h2 class="text-4xl text-black font-black uppercase pt-8">Projects</h2>
 
     <div class="mx-auto pt-8">
       <section v-for="project in projects" v-bind:key="project.title" class="pb-8">
@@ -23,13 +23,19 @@
 
     <div class="border-t-4 border-grey-lighter my-8"></div>
 
-    <h2 class="text-4xl text-black font-black uppercase">Writing</h2>
+    <h2 class="text-4xl text-black font-black uppercase pt-8">Writing</h2>
 
     <div class="mx-auto pt-8">
       <section v-for="post in posts" v-bind:key="post.title" class="pb-8">
         <div class="text-xs font-mono">{{ post.date }}</div>
         <nuxt-link :to="post.permalink" class="text-3xl text-black font-black no-underline hover:text-indigo-dark uppercase">{{ post.title }}</nuxt-link>
       </section>
+    </div>
+
+    <div class="border-t-4 border-grey-lighter my-8"></div>
+
+    <div class="text-xs font-mono pt-8 pb-4">
+      &copy; {{ new Date().getFullYear() }} | Mikhail Delport
     </div>
   </div>
 </template>
