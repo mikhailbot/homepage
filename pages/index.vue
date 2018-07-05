@@ -13,10 +13,22 @@
 
     <div class="border-t-4 border-grey-lighter my-8"></div>
 
+    <h2 class="text-4xl text-black font-black uppercase">Projects</h2>
+
+    <div class="mx-auto pt-8">
+      <section v-for="project in projects" v-bind:key="project.title" class="pb-8">
+        <a :href="project.url" class="text-3xl text-black font-black no-underline hover:text-indigo-dark uppercase">{{ project.name }} <br> <span class="text-xl font-normal normal-case">{{ project.description }}</span></a>
+      </section>
+    </div>
+
+    <div class="border-t-4 border-grey-lighter my-8"></div>
+
+    <h2 class="text-4xl text-black font-black uppercase">Writing</h2>
+
     <div class="mx-auto pt-8">
       <section v-for="post in posts" v-bind:key="post.title" class="pb-8">
         <div class="text-xs font-mono">{{ post.date }}</div>
-        <nuxt-link :to="post.permalink" class="text-4xl text-black font-black no-underline hover:text-indigo-dark uppercase">{{ post.title }}</nuxt-link>
+        <nuxt-link :to="post.permalink" class="text-3xl text-black font-black no-underline hover:text-indigo-dark uppercase">{{ post.title }}</nuxt-link>
       </section>
     </div>
   </div>
@@ -26,7 +38,24 @@
 export default {
   async asyncData ({ app }) {
     return {
-      posts: await app.$content('/').getAll()
+      posts: await app.$content('/').getAll(),
+      projects: [
+        {
+          name: 'Ukulesa',
+          url: 'https://ukulesa.com/',
+          description: 'Get an email when a GitHub AMA question gets answered.'
+        },
+        {
+          name: 'BudgetSimple',
+          url : 'https://budgetsimple.delport.ca/',
+          description: 'Simple shared budgeting.'
+        },
+        {
+          name: 'MeetSilver',
+          url: 'http://meetsilver.com/',
+          description: 'Scheduling meetings, done simply!'
+        }
+      ]
     }
   },
 
