@@ -13,17 +13,22 @@
 
     <div class="border-t-4 border-grey-lighter my-8"></div>
 
-    <h2 class="text-4xl text-black font-black uppercase pt-8">Projects</h2>
+    <h2 class="text-5xl text-black font-black uppercase pt-8">Projects</h2>
 
     <div class="mx-auto pt-8">
       <section v-for="project in projects" v-bind:key="project.title" class="pb-8">
-        <a :href="project.url" class="text-3xl text-black font-black no-underline hover:text-indigo-dark uppercase">{{ project.name }} <br> <span class="text-xl font-normal normal-case">{{ project.description }}</span></a>
+        <a :href="project.url" class="text-3xl text-black font-black no-underline hover:text-indigo-dark uppercase">
+          {{ project.name }}
+          <span class="inline-block align-top bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker ml-2"> {{ project.status }}</span>
+          <br>
+          <span class="text-xl text-grey-darkest font-normal normal-case">{{ project.description }}</span>
+        </a>
       </section>
     </div>
 
     <div class="border-t-4 border-grey-lighter my-8"></div>
 
-    <h2 class="text-4xl text-black font-black uppercase pt-8">Writing</h2>
+    <h2 class="text-5xl text-black font-black uppercase pt-8">Writing</h2>
 
     <div class="mx-auto pt-8">
       <section v-for="post in posts" v-bind:key="post.title" class="pb-8">
@@ -49,17 +54,20 @@ export default {
         {
           name: 'Ukulesa',
           url: 'https://ukulesa.com/',
-          description: 'Get an email when a GitHub AMA question gets answered.'
+          description: 'Get an email when a GitHub AMA question gets answered.',
+          status: 'released'
         },
         {
           name: 'BudgetSimple',
           url : 'https://budgetsimple.delport.ca/',
-          description: 'Simple shared budgeting.'
+          description: 'Simple shared budgeting, done right.',
+          status: 'alpha'
         },
         {
           name: 'MeetSilver',
           url: 'http://meetsilver.com/',
-          description: 'Scheduling meetings, done simply!'
+          description: 'Scheduling meetings, done simply!',
+          status: 'alpha'
         }
       ]
     }

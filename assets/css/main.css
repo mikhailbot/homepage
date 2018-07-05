@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 p {
-  @apply .pb-6 .text-xl .leading-normal;
+  @apply .pb-6 .text-xl .leading-normal .text-grey-darkest;
 }
 
 p > a {
