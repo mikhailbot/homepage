@@ -14,7 +14,20 @@ A quick lock at the docs and there’s a simple fix! Just add an `as: :admin` op
 
 
 ```elixir
+# router.ex
+
+scope "/public", WeddingApiWeb, as: :public do
+  ...
+end
+
+
+# mix phx.routes
+
+...
 invitation_path GET /invitations/:id WeddingApiWeb.InvitationController :show
 
 public_invitation_path GET /public/invitations/:code WeddingApiWeb.InvitationController :show
+...
 ```
+
+Sometimes it's the little things that make you smile.
