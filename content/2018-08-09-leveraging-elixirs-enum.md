@@ -1,7 +1,7 @@
 ---
 title: Leveraging Elixir's Enum Module
 date: 2018-08-09
-description:
+description: Sometimes I forget to leverage Elixir’s Enum to it’s fullest. A far more succinct way to count tags for a collection of posts in your blog!
 ---
 
 I was recently tasked with counting the occurrences of tags for some blog posts. The blog posts where in Markdown with some YAML like frontmatter. I'd already parsed out the front matter and each post had a `tags` property with a string of tags separated by a comma.
