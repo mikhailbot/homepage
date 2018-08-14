@@ -23,7 +23,17 @@ module.exports = {
     postcssImport,
     tailwindcss('./tailwind.js'),
     purgecss({
-      content: ['./src/**/*.vue']
+      content: ['./src/**/*.vue'],
+      extractors: [
+        {
+            extractor: class TailwindExtractor {
+                static extract(content) {
+                    return content.match(/[A-z0-9-:\/]+/g) || [];
+                }
+            },
+            extensions: ['vue']
+        }
+      ]
     }),
     autoprefixer
   ]
@@ -31,3 +41,5 @@ module.exports = {
 ```
 
 This took me far too long to figure out, but the benefits are profound! Before adding PurgeCSS my CSS bundle was 50.12 kb Gzipped, after PurgeCSS it was only 2.33 kb--over a 20 times reduction in size!
+
+**Update:** The custom extrator is required for Tailwind's responsive classes which get stripped out by default!
