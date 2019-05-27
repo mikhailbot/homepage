@@ -2,10 +2,10 @@
   <div class="md:pt-8">
     <h1 class="text-5xl text-black font-black pt-8">Hi there, I'm Mikhail.</h1>
     <p class="text-xl mt-4 pb-2">
-      I'm a developer, designer, and sysadmin currently working in higher education.
+      I'm a sysadmin and developer currently working in higher education.
     </p>
     <p class="text-xl pb-2">
-      When I'm not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/">puppy</a> you can usually find me building things in Elixir and Vue or producing and editing podcasts for <a href="https://spec.fm/">SpecFM</a>.
+      When I'm not enjoying the outdoors with my wife and our <a href="https://www.instagram.com/winter_shepherd/">puppy</a> you can usually find me breaking servers, building things in Elixir and Vue, or producing and editing podcasts for <a href="https://spec.fm/">SpecFM</a>.
     </p>
     <p class="text-xl pb-8">
       Come chat with me on <a href="https://twitter.com/_mikhailbot">Twitter</a> or lets work on something together on <a href="https://github.com/mikhailbot">GitHub</a>!
@@ -53,9 +53,9 @@ export default {
       projects: [
         {
           name: 'Ukulesa',
-          url: 'https://ukulesa.com/',
+          url: 'https://delport.ca/',
           description: 'Get an email when a GitHub AMA question gets answered.',
-          status: 'released'
+          status: 'sunset'
         },
         {
           name: 'BudgetSimple',
